@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    display:grid;
+    place-items: center;
+}
+
+.container{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    background-color: #941d94;
+}
+
+button {
+    background-color: #5c195c;
+    color: white;
+    padding: 3px 5px;
+    border: none;
+}
